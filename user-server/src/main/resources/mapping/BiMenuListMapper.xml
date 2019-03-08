@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.isoftstone.bi.userserver.mapper.BiMenuListMapper" >
+  <resultMap id="BaseResultMap" type="com.isoftstone.bi.userserver.entity.BiMenu" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="menu_name" property="menuName" jdbcType="VARCHAR" />
+    <result column="parent_id" property="parentId" jdbcType="BIGINT" />
+    <result column="menu_enname" property="menuEnname" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, menu_name, parent_id, menu_enname
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select
+    <include refid="Base_Column_List" />
+    from bi_menu_list
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from bi_menu_list
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.isoftstone.bi.userserver.entity.BiMenu" >
+    insert into bi_menu_list (id, menu_name, parent_id,
+      menu_enname)
+    values (#{id,jdbcType=BIGINT}, #{menuName,jdbcType=VARCHAR}, #{parentId,jdbcType=BIGINT},
+      #{menuEnname,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.isoftstone.bi.userserver.entity.BiMenu" >
+    insert into bi_menu_list
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="menuName != null" >
+        menu_name,
+      </if>
+      <if test="parentId != null" >
+        parent_id,
+      </if>
+      <if test="menuEnname != null" >
+        menu_enname,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="menuName != null" >
+        #{menuName,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null" >
+        #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="menuEnname != null" >
+        #{menuEnname,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.isoftstone.bi.userserver.entity.BiMenu" >
+    update bi_menu_list
+    <set >
+      <if test="menuName != null" >
+        menu_name = #{menuName,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null" >
+        parent_id = #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="menuEnname != null" >
+        menu_enname = #{menuEnname,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.isoftstone.bi.userserver.entity.BiMenu" >
+    update bi_menu_list
+    set menu_name = #{menuName,jdbcType=VARCHAR},
+      parent_id = #{parentId,jdbcType=BIGINT},
+      menu_enname = #{menuEnname,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="list" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from bi_menu_list
+  </select>
+  <select id="getByName" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from bi_menu_list
+    where 1=1
+    <if test="menuName!=null and menuName!=''">
+      and menu_name=#{menuName}
+    </if>
+    <if test="menuEnName!=null and menuEnName!=''">
+      and menu_enname=#{menuEnName}
+    </if>
+  </select>
+  <delete id="deleteByName" parameterType="string">
+     delete from bi_menu_list
+     where menu_name=#{menuName}
+  </delete>
+</mapper>

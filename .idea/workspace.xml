@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f561efbe-c3ac-4ad4-a9a7-19c1f9f10823" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/user-server/target/" />
+    <ignored path="$PROJECT_DIR$/feign-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="510835429">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.62" value="2" />
+          <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.open.time.94" value="1" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="19" />
+          <entry key="java" value="262" />
+          <entry key="pom" value="1" />
+          <entry key="xml" value="55" />
+          <entry key="yml" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="19" />
+          <entry key="JAVA" value="262" />
+          <entry key="XML" value="56" />
+          <entry key="YAML" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ft" value="24" />
+          <entry key="java" value="6082" />
+          <entry key="xml" value="313" />
+          <entry key="yml" value="346" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6082" />
+          <entry key="SQL" value="7" />
+          <entry key="VTL" value="24" />
+          <entry key="XML" value="306" />
+          <entry key="YAML" value="346" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/interceptor/AuthInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/interceptor/InterceptorConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/BiPermissionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-164">
+              <caret line="73" column="55" lean-forward="true" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/BiSystemMenuServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="42" column="57" lean-forward="true" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="74" column="68" lean-forward="true" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/annotation/UserLoginToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/annotation/PassToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/UserRoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="800">
+              <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-31">
+              <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>测试环境</find>
+      <find>queryUserAll</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springcloud-learning" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/annotation/PassToken.java" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/annotation/PassToken.java" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/Service/RedisHelper.java" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/Service/Impl/RedisHelperImpl.java" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/config/CemCorsConfig.java" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/controller/FeignController.java" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/entity/BiMenu.java" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/interceptor/AuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/BiSystemMenuService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/mapping/BiMenuListMapper.xml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiMenuListMapper.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/BiPermittionService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/test/java/com/isoftstone/bi/userserver/service/impl/BiSystemMenuServiceTest.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/vo/MenuVo.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/vo/MenuTree.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/BiSystemMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/mapping/BiPermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/BiPermissionService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/vo/UserVo.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiPermissionMapper.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/BiPermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/FeignServerApplication.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiRoleMapper.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/mapping/BiRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/UserService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiUserMapper.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/interceptor/AuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/mapping/BiUserMapper.xml" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/util/ExportExcelXssfUtil.java" />
+        <option value="$PROJECT_DIR$/feign-server/pom.xml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/UserRoleService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/mapping/BiUserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiUserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/UserRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/TokenService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/TokenServiceImpl.java" />
+        <option value="$PROJECT_DIR$/feign-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/UserRoleController.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/UserController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="user-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="135" />
+    <option name="y" value="21" />
+    <option name="width" value="1260" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Checkstyle</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CheckStyle</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="business-intelligence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-intelligence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-intelligence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-intelligence" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-intelligence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-intelligence" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-intelligence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-intelligence" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-intelligence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-intelligence" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-intelligence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-intelligence" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="userserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="business-intelligence" type="b2602c69:ProjectViewProjectNode" />
+              <item name="business-intelligence" type="462c0819:PsiDirectoryNode" />
+              <item name="user-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="userserver" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551866246087" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="D:/checkstyle/checkstyle-checkstyle-8.17/config/intellij-idea-inspections.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.isoftstone.bi.userserver.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.isoftstone.bi.feignserver.Service.Impl" />
+      <recent name="com.isoftstone.bi.feignserver.Service" />
+      <recent name="com.isoftstone.bi.userserver.config" />
+      <recent name="com.isoftstone.bi.userserver.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\business-intelligence\feign-server" />
+      <recent name="D:\projects\business-intelligence\feign-server\src\main\java\com\isoftstone\bi\feignserver\util" />
+      <recent name="D:\projects\business-intelligence\user-server\src\main\java\com\isoftstone\bi\userserver\entity" />
+      <recent name="D:\projects\business-intelligence\user-server\src\main\java\com\isoftstone\bi\userserver\controller" />
+      <recent name="D:\projects\business-intelligence\user-server\src\main\java\com\isoftstone\bi\userserver\service\impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\business-intelligence\user-server\src\main\resources\mapping" />
+      <recent name="D:\projects\business-intelligence\feign-server\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserServerApplication">
+    <configuration name="BiSystemMenuServiceTest.menuTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isoftstone.bi.userserver.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isoftstone.bi.userserver.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.isoftstone.bi.userserver.service.impl.BiSystemMenuServiceTest" />
+      <option name="METHOD_NAME" value="menuTreeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BiSystemMenuServiceTest.permisson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isoftstone.bi.userserver.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isoftstone.bi.userserver.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.isoftstone.bi.userserver.service.impl.BiSystemMenuServiceTest" />
+      <option name="METHOD_NAME" value="permisson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isoftstone.bi.userserver.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isoftstone.bi.userserver.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.isoftstone.bi.userserver.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessIntelligenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="business-intelligence" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.isoftstone.bi.businessintelligence.BusinessIntelligenceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.isoftstone.eureka.server.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="feign-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.isoftstone.bi.feignserver.FeignServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="user-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.isoftstone.bi.userserver.UserServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.isoftstone.bi.zuulserver.ZuulServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BusinessIntelligenceApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.UserServerApplication" />
+      <item itemvalue="Spring Boot.FeignServerApplication" />
+      <item itemvalue="JUnit.UserServiceImplTest.test" />
+      <item itemvalue="JUnit.BiSystemMenuServiceTest.menuTreeTest" />
+      <item itemvalue="JUnit.BiSystemMenuServiceTest.permisson" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BiSystemMenuServiceTest.permisson" />
+        <item itemvalue="JUnit.BiSystemMenuServiceTest.menuTreeTest" />
+        <item itemvalue="JUnit.UserServiceImplTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f561efbe-c3ac-4ad4-a9a7-19c1f9f10823" name="Default Changelist" comment="" />
+      <created>1549936493453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549936493453</updated>
+      <workItem from="1549936497728" duration="24017000" />
+      <workItem from="1550026978879" duration="13274000" />
+      <workItem from="1550112759376" duration="7365000" />
+      <workItem from="1550194382538" duration="15944000" />
+      <workItem from="1550452390937" duration="3596000" />
+      <workItem from="1550458743629" duration="8355000" />
+      <workItem from="1550538949562" duration="5273000" />
+      <workItem from="1550629472626" duration="4780000" />
+      <workItem from="1550712335433" duration="5841000" />
+      <workItem from="1551075581779" duration="6871000" />
+      <workItem from="1551168484045" duration="4862000" />
+      <workItem from="1551232804291" duration="6497000" />
+      <workItem from="1551316963964" duration="15748000" />
+      <workItem from="1551403670872" duration="19507000" />
+      <workItem from="1551662070273" duration="7894000" />
+      <workItem from="1551772489992" duration="3992000" />
+      <workItem from="1551836773187" duration="11933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceImplTest_test - 2019.02.12 at 16h 23m 50s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_test - 2019.02.12 at 16h 29m 57s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_test - 2019.02.12 at 16h 35m 37s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_test - 2019.02.12 at 16h 37m 23s.xml">
+      <configuration name="UserServiceImplTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiSystemMenuServiceTest_menuTreeTest - 2019.02.25 at 17h 16m 04s.xml">
+      <configuration name="BiSystemMenuServiceTest.menuTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiSystemMenuServiceTest_permisson - 2019.02.28 at 16h 25m 43s.xml">
+      <configuration name="BiSystemMenuServiceTest.permisson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiSystemMenuServiceTest_permisson - 2019.02.28 at 16h 26m 43s.xml">
+      <configuration name="BiSystemMenuServiceTest.permisson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiSystemMenuServiceTest_permisson - 2019.02.28 at 16h 27m 44s.xml">
+      <configuration name="BiSystemMenuServiceTest.permisson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BiSystemMenuServiceTest_permisson - 2019.02.28 at 16h 28m 28s.xml">
+      <configuration name="BiSystemMenuServiceTest.permisson" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="165749000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30962005" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4635879" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4973357" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="CheckStyle" order="15" visible="true" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.14227971" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30719483" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44680852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2960993" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32978722" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.32978722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.14227971" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/RedisHelperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiPermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/controller/FeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/Service/Impl/UserServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/UserServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/FeignServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/leo19870622/Files/src/BiRoleMapper.java" />
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiMenuListMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/mapping/BiPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="121" column="81" selection-start-line="121" selection-start-column="81" selection-end-line="121" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/mapping/BiRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="77" column="26" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8132">
+          <caret line="478" selection-start-line="478" selection-end-line="478" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/mapping/BiMenuListMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/mapping/BiUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="103" column="180" selection-start-line="103" selection-start-column="180" selection-end-line="103" selection-end-column="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/entity/BiUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="92" column="33" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+          <folding>
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
+            <element signature="e#2437#2438#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/mapping/BiRolePermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="77" column="54" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/util/ExportExcelXssfUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="55" column="58" lean-forward="true" selection-start-line="55" selection-start-column="58" selection-end-line="55" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-server/src/main/java/com/isoftstone/bi/feignserver/util/ExportExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/UserRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/mapping/BiUserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/mapper/BiUserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/UserRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="89" column="21" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="21" />
+          <folding>
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2148#2149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/BiPermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/entity/BiUserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/TokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/TokenServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/vo/UserVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="113" column="15" selection-start-line="113" selection-start-column="15" selection-end-line="113" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/UserRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="74" column="68" lean-forward="true" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/annotation/PassToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/annotation/UserLoginToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/interceptor/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/BiPermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="73" column="55" lean-forward="true" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/service/impl/BiSystemMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="42" column="57" lean-forward="true" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/isoftstone/bi/userserver/interceptor/AuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>feign-server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2008427" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2008427" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

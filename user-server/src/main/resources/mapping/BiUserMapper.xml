@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.isoftstone.bi.userserver.mapper.BiUserMapper" >
+  <resultMap id="BaseResultMap" type="com.isoftstone.bi.userserver.entity.BiUser" >
+    <id column="user_id" property="userId" jdbcType="BIGINT" />
+    <result column="user_name" property="userName" jdbcType="VARCHAR" />
+    <result column="user_role_names" property="userRoleNames" jdbcType="VARCHAR" />
+    <result column="user_account" property="userAccount" jdbcType="VARCHAR" />
+    <result column="user_password" property="userPassword" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    user_id, user_name, user_role_names, user_account, user_password
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select
+    <include refid="Base_Column_List" />
+    from bi_user
+    where user_id = #{userId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from bi_user
+    where user_id = #{userId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.isoftstone.bi.userserver.entity.BiUser" >
+    insert into bi_user (user_id, user_name, user_role_names,
+      user_account, user_password)
+    values (#{userId,jdbcType=BIGINT}, #{userName,jdbcType=VARCHAR}, #{userRoleNames,jdbcType=VARCHAR},
+      #{userAccount,jdbcType=VARCHAR}, #{userPassword,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.isoftstone.bi.userserver.entity.BiUser" >
+    insert into bi_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userId != null" >
+        user_id,
+      </if>
+      <if test="userName != null" >
+        user_name,
+      </if>
+      <if test="userRoleNames != null" >
+        user_role_names,
+      </if>
+      <if test="userAccount != null" >
+        user_account,
+      </if>
+      <if test="userPassword != null" >
+        user_password,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userId != null" >
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="userName != null" >
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userRoleNames != null" >
+        #{userRoleNames,jdbcType=VARCHAR},
+      </if>
+      <if test="userAccount != null" >
+        #{userAccount,jdbcType=VARCHAR},
+      </if>
+      <if test="userPassword != null" >
+        #{userPassword,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.isoftstone.bi.userserver.entity.BiUser" >
+    update bi_user
+    <set >
+      <if test="userName != null" >
+        user_name = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userRoleNames != null" >
+        user_role_names = #{userRoleNames,jdbcType=VARCHAR},
+      </if>
+      <if test="userAccount != null" >
+        user_account = #{userAccount,jdbcType=VARCHAR},
+      </if>
+      <if test="userPassword != null" >
+        user_password = #{userPassword,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.isoftstone.bi.userserver.entity.BiUser" >
+    update bi_user
+    set user_name = #{userName,jdbcType=VARCHAR},
+      user_role_names = #{userRoleNames,jdbcType=VARCHAR},
+      user_account = #{userAccount,jdbcType=VARCHAR},
+      user_password = #{userPassword,jdbcType=VARCHAR}
+    where user_id = #{userId,jdbcType=BIGINT}
+  </update>
+  <select id="selectByNameAndPassword" resultMap="BaseResultMap" parameterType="string">
+    select
+    <include refid="Base_Column_List" />
+    from bi_user
+    where user_name = #{userName,jdbcType=VARCHAR}
+    and user_password = #{userPassword,jdbcType=VARCHAR}
+  </select>
+  <select id="queryUser" parameterType="string" resultType="com.isoftstone.bi.userserver.entity.BiUser" >
+    select user_id AS userId,user_name AS userName,user_role_names AS userRoleNames,user_account AS userAccount,user_telphone AS telphone,user_password AS userPassword from bi_user where user_name = #{userName,jdbcType=VARCHAR}
+  </select>
+  <select id="queryUserAll" parameterType="string" resultType="com.isoftstone.bi.userserver.entity.BiUser" >
+    select user_id AS userId,user_name AS userName,user_role_names AS userRoleNames,user_account AS userAccount,user_telphone AS telphone,user_password AS userPassword from bi_user
+  </select>
+  <insert id="addUser" parameterType="com.isoftstone.bi.userserver.entity.BiUser" >
+    insert into bi_user (user_name, user_role_names,user_account, user_password,user_telphone)
+    values  (#{userName,jdbcType=VARCHAR}, #{userRoleNames,jdbcType=VARCHAR},#{userAccount,jdbcType=VARCHAR}, #{userPassword,jdbcType=VARCHAR},#{telphone,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateUser" parameterType="com.isoftstone.bi.userserver.entity.BiUser" >
+    update bi_user set user_role_names = #{userRoleNames,jdbcType=VARCHAR},user_account = #{userAccount,jdbcType=VARCHAR},user_password = #{userPassword,jdbcType=VARCHAR},user_telphone = #{telphone,jdbcType=VARCHAR} where user_name = #{userName,jdbcType=BIGINT}
+  </update>
+  <delete id="deleteByUserId" parameterType="java.lang.Integer" >
+    delete from bi_user
+    where user_id = #{id,jdbcType=BIGINT}
+  </delete>
+  <delete id="deleteAllByUserIds" parameterType="java.util.List" >
+    delete from bi_user where user_id in
+    <foreach collection="list" item="userId" open="(" close=")" index="index" separator=",">
+      #{userId,jdbcType=BIGINT}
+    </foreach>
+  </delete>
+</mapper>

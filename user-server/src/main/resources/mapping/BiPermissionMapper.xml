@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.isoftstone.bi.userserver.mapper.BiPermissionMapper" >
+  <resultMap id="BaseResultMap" type="com.isoftstone.bi.userserver.entity.BiPermission" >
+    <id column="permission_id" property="permissionId" jdbcType="BIGINT" />
+    <result column="permission_name" property="permissionName" jdbcType="VARCHAR" />
+    <result column="permission_url" property="permissionUrl" jdbcType="VARCHAR" />
+    <result column="parent_id" property="parentId" jdbcType="BIGINT" />
+    <result column="role_id" property="roleId" jdbcType="BIGINT" />
+    <result column="permission_auth" property="permissionAuth" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    permission_id, permission_name, permission_url, parent_id, role_id, permission_auth
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select
+    <include refid="Base_Column_List" />
+    from bi_permission
+    where permission_id = #{permissionId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from bi_permission
+    where permission_id = #{permissionId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.isoftstone.bi.userserver.entity.BiPermission" >
+    insert into bi_permission (permission_id, permission_name, permission_url,
+      parent_id, role_id, permission_auth
+      )
+    values (#{permissionId,jdbcType=BIGINT}, #{permissionName,jdbcType=VARCHAR}, #{permissionUrl,jdbcType=VARCHAR},
+      #{parentId,jdbcType=BIGINT}, #{roleId,jdbcType=BIGINT}, #{permissionAuth,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.isoftstone.bi.userserver.entity.BiPermission" >
+    insert into bi_permission
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="permissionId != null" >
+        permission_id,
+      </if>
+      <if test="permissionName != null" >
+        permission_name,
+      </if>
+      <if test="permissionUrl != null" >
+        permission_url,
+      </if>
+      <if test="parentId != null" >
+        parent_id,
+      </if>
+      <if test="roleId != null" >
+        role_id,
+      </if>
+      <if test="permissionAuth != null" >
+        permission_auth,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="permissionId != null" >
+        #{permissionId,jdbcType=BIGINT},
+      </if>
+      <if test="permissionName != null" >
+        #{permissionName,jdbcType=VARCHAR},
+      </if>
+      <if test="permissionUrl != null" >
+        #{permissionUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null" >
+        #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="roleId != null" >
+        #{roleId,jdbcType=BIGINT},
+      </if>
+      <if test="permissionAuth != null" >
+        #{permissionAuth,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.isoftstone.bi.userserver.entity.BiPermission" >
+    update bi_permission
+    <set >
+      <if test="permissionName != null" >
+        permission_name = #{permissionName,jdbcType=VARCHAR},
+      </if>
+      <if test="permissionUrl != null" >
+        permission_url = #{permissionUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null" >
+        parent_id = #{parentId,jdbcType=BIGINT},
+      </if>
+      <if test="roleId != null" >
+        role_id = #{roleId,jdbcType=BIGINT},
+      </if>
+      <if test="permissionAuth != null" >
+        permission_auth = #{permissionAuth,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where permission_id = #{permissionId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.isoftstone.bi.userserver.entity.BiPermission" >
+    update bi_permission
+    set permission_name = #{permissionName,jdbcType=VARCHAR},
+      permission_url = #{permissionUrl,jdbcType=VARCHAR},
+      parent_id = #{parentId,jdbcType=BIGINT},
+      role_id = #{roleId,jdbcType=BIGINT},
+      permission_auth = #{permissionAuth,jdbcType=VARCHAR}
+    where permission_id = #{permissionId,jdbcType=BIGINT}
+  </update>
+  <select id="listByRoleId" parameterType="long" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from bi_permission
+    where role_id = #{roleId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByRoleId" parameterType="long">
+     delete from bi_permission
+    where role_id = #{roleId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insertList">
+    insert into bi_permission (permission_id, permission_name, permission_url,
+      parent_id, role_id, permission_auth
+      ) values
+      <foreach collection="list" item="item" index="index" separator=",">
+        (#{item.permissionId,jdbcType=BIGINT}, #{item.permissionName,jdbcType=VARCHAR}, #{item.permissionUrl,jdbcType=VARCHAR},
+        #{item.parentId,jdbcType=BIGINT}, #{item.roleId,jdbcType=BIGINT}, #{item.permissionAuth,jdbcType=VARCHAR}
+        )
+      </foreach>
+  </insert>
+</mapper>

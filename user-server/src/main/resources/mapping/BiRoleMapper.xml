@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.isoftstone.bi.userserver.mapper.BiRoleMapper" >
+  <resultMap id="BaseResultMap" type="com.isoftstone.bi.userserver.entity.BiRole" >
+    <id column="role_id" property="roleId" jdbcType="BIGINT" />
+    <result column="role_name" property="roleName" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    role_id, role_name
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select
+    <include refid="Base_Column_List" />
+    from bi_role
+    where role_id = #{roleId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from bi_role
+    where role_id = #{roleId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.isoftstone.bi.userserver.entity.BiRole" >
+    insert into bi_role (role_id, role_name)
+    values (#{roleId,jdbcType=BIGINT}, #{roleName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.isoftstone.bi.userserver.entity.BiRole" >
+    insert into bi_role
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="roleId != null" >
+        role_id,
+      </if>
+      <if test="roleName != null" >
+        role_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="roleId != null" >
+        #{roleId,jdbcType=BIGINT},
+      </if>
+      <if test="roleName != null" >
+        #{roleName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.isoftstone.bi.userserver.entity.BiRole" >
+    update bi_role
+    <set >
+      <if test="roleName != null" >
+        role_name = #{roleName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where role_id = #{roleId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.isoftstone.bi.userserver.entity.BiRole" >
+    update bi_role
+    set role_name = #{roleName,jdbcType=VARCHAR}
+    where role_id = #{roleId,jdbcType=BIGINT}
+  </update>
+  <insert id="addRole" parameterType="com.isoftstone.bi.userserver.entity.BiRole" >
+    insert into bi_role (role_id, role_name)
+    values (#{roleId,jdbcType=BIGINT}, #{roleName,jdbcType=VARCHAR})
+  </insert>
+  <delete id="deleteByRoleId" parameterType="java.lang.Integer" >
+    delete from bi_role
+    where role_id = #{roleId,jdbcType=BIGINT}
+  </delete>
+  <select id="queryRole" parameterType="string" resultType="com.isoftstone.bi.userserver.entity.BiRole" >
+    select role_id AS roleId,role_name AS roleName from bi_role where role_name = #{roleName,jdbcType=VARCHAR}
+  </select>
+  <select id="queryRoleAll" parameterType="string" resultType="com.isoftstone.bi.userserver.entity.BiRole" >
+    select role_id AS roleId,role_name AS roleName from bi_role
+  </select>
+  <delete id="deleteAll" parameterType="java.util.List" >
+    delete from bi_role where role_id in
+    <foreach collection="list" item="roleId" open="(" close=")" index="index" separator=",">
+      #{roleId,jdbcType=BIGINT}
+    </foreach>
+  </delete>
+  <select id="queryRoleIds" parameterType="com.isoftstone.bi.userserver.entity.BiRole" resultType="com.isoftstone.bi.userserver.entity.BiRole" >
+    select role_id AS roleId from bi_role where role_name in
+    <foreach collection="roleNames" item="roleName" open="(" close=")" index="index" separator=",">
+      #{roleName,jdbcType=BIGINT}
+    </foreach>
+  </select>
+</mapper>

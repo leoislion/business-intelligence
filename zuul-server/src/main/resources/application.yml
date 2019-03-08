@@ -1,0 +1,103 @@
+spring:
+  profiles:
+    active: dev
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8769
+spring:
+  profiles: dev
+  application:
+    name: zuul-service
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: feign-service
+    api-b:
+      path: /user-service/**
+      serviceId: user-service
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeout-in-milliseconds:  36000000
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 36000000
+
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8769
+spring:
+  profiles: test
+  application:
+    name: zuul-service
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: feign-service
+    api-b:
+      path: /user-service/**
+      serviceId: user-service
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeout-in-milliseconds:  36000000
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 36000000
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8769
+spring:
+  profiles: pro
+  application:
+    name: zuul-service
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: feign-service
+    api-b:
+      path: /user-service/**
+      serviceId: user-service
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeout-in-milliseconds:  36000000
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 36000000

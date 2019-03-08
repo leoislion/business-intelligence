@@ -1,0 +1,154 @@
+spring:
+  profiles:
+    active: dev
+---
+#开发环境
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8765
+spring:
+  profiles: dev
+  application:
+    name: feign-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cloud-bi-business?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package:  com.isoftstone.bi.feignserver.mapper
+logging:
+  level:
+    com.isoftstone.bi.feignserver.mapper : debug
+redis:
+  host: 127.0.0.1
+  # Redis服务器连接端口
+  port: 6379
+  jedis:
+    pool:
+      #连接池最大连接数（使用负值表示没有限制）
+      max-active: 100
+      # 连接池中的最小空闲连接
+      max-idle: 10
+      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-wait: 100000
+  # 连接超时时间（毫秒）
+  timeout: 5000
+  #默认是索引为0的数据库
+  database: 0
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+feign:
+  hystrix:
+    enabled: true
+---
+#测试环境
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8765
+spring:
+  profiles: test
+  application:
+    name: feign-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cloud-bi-business?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package:  com.isoftstone.bi.feignserver.mapper
+logging:
+  level:
+    com.isoftstone.bi.feignserver.mapper : debug
+redis:
+  host: 127.0.0.1
+  # Redis服务器连接端口
+  port: 6379
+  jedis:
+    pool:
+      #连接池最大连接数（使用负值表示没有限制）
+      max-active: 100
+      # 连接池中的最小空闲连接
+      max-idle: 10
+      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-wait: 100000
+  # 连接超时时间（毫秒）
+  timeout: 5000
+  #默认是索引为0的数据库
+  database: 0
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+feign:
+  hystrix:
+    enabled: true
+
+---
+#生产环境
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8765
+spring:
+  profiles: pro
+  application:
+    name: feign-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cloud-bi-business?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&&useSSL=false&autoReconnect=true
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package:  com.isoftstone.bi.feignserver.mapper
+logging:
+  level:
+    com.isoftstone.bi.feignserver.mapper : debug
+redis:
+  host: 127.0.0.1
+  # Redis服务器连接端口
+  port: 6379
+  jedis:
+    pool:
+      #连接池最大连接数（使用负值表示没有限制）
+      max-active: 100
+      # 连接池中的最小空闲连接
+      max-idle: 10
+      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-wait: 100000
+  # 连接超时时间（毫秒）
+  timeout: 5000
+  #默认是索引为0的数据库
+  database: 0
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+feign:
+  hystrix:
+    enabled: true
